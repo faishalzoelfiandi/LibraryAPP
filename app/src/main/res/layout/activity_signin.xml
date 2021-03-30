@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="Sign In"
+        android:textStyle="bold"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/signin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signin"
+        android:text="Email"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/email"
+        android:id="@+id/editemail"
+        android:padding="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editemail"
+        android:text="Password"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/password"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/password"
+        android:padding="20dp"
+        android:id="@+id/editpass"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editpass"
+        android:background="@drawable/btradius"
+        android:layout_marginLeft="50dp"
+        android:text="Sign In"
+        android:id="@+id/btnsignin"
+        android:textSize="20dp"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnsignin"
+        android:text="if you dont have account pls sign up"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/signup"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/signup"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/fb"
+        android:id="@+id/fb"/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/signup"
+        android:layout_toRightOf="@id/fb"
+        android:id="@+id/google"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/google"/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/signup"
+        android:layout_toRightOf="@id/google"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/twt"/>
+
+
+
+
+
+</RelativeLayout>

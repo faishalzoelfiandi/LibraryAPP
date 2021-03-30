@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Navdrawer</string>
+
+
+    <!-- String Dashboard -->
+    <string name="category_crime">Crime</string>
+    <string name="category_fiction">Fiction</string>
+    <string name="category_it">IT</string>
+    <string name="category_drama">Drama</string>
+
+    <!-- Title and Description -->
+    <string name="read_jagung">Menanam jagung dengan media pasir</string>
+    <string name="read_it">How to coding with smartphone</string>
+    <string name="read_crime">Gancet bersama habib</string>
+    <string name="read_fiksi">Gancet bersama habib</string>
+
+    <!--APP NAME -->
+    <string name="welcome">Hi WOOPS</string>
+    <string name="genre">GENRE</string>
+    <string name="author">TOP AUTHORS</string>
+    <string name="journal">Journal</string>
+    <string name="recentRead">RECENTLY READ</string>
+
+    <!--Card NAME -->
+    <string name="card1">Crime</string>
+    <string name="card2">IT</string>
+    <string name="card3">Business</string>
+    <string name="card4">Automotive</string>
+
+    <!-- About Us text -->
+    <string name="abs1">This app just not for kids and this app kindly make you feel worst than ever after you saw it at the first time</string>
+    <string name="copyright">Copyright sobatgurun ltd</string>
+    <string name="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget elementum volutpat donec enim amet id risus adipiscing. Vitae sem pharetra, posuere suspendisse venenatis dui magna justo vitae. Ut pharetra tempus at aenean sollicitudin massa. Vitae tellus ultrices id erat tellus. Cras pellentesque viverra arcu egestas metus, auctor pellentesque. Molestie condimentum sed ut vulputate eros, suspendisse amet. Pellentesque urna commodo non malesuada dui sollicitudin lectus eget. Laoreet nulla tempus vestibulum semper lectus et.</string>
+    <string name="text2">Sapien nec pellentesque quisque molestie euismod tristique sagittis, faucibus. Dui maecenas viverra vitae pellentesque aliquam. Aliquam in vitae in mattis viverra tortor, suspendisse. Enim massa nisl, urna felis volutpat eu urna, lectus justo. Faucibus sed adipiscing risus, lacus felis adipiscing libero, etiam. Neque vitae egestas vitae, curabitur. Mi interdum integer libero varius egestas lectus venenatis nunc. Congue sagittis adipiscing lectus tincidunt nibh pharetra consequat.</string>
+    <string name="text3">elit, est id lectus tortor scelerisque tristique. Eu sed suspendisse suspendisse et mollis volutpat id commodo urna. A suspendisse orci, facilisi integer. Aliquet pellentesque auctor nunc, sem vitae malesuada. Est elit praesent ultricies turpis senectus in volutpat ornare donec. Mauris sit hendrerit aliquet lorem risus. Feugiat eget est pulvinar sed purus sagittis viverra.</string>
+</resources>

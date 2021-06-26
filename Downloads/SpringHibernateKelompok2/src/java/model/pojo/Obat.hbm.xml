@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 14, 2021 3:18:10 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping auto-import="true">
+    <class name="model.pojo.Obat" table="obat" catalog="db_apotek" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="namaObat" type="string">
+            <column name="nama_obat" length="100" not-null="true" />
+        </property>
+        <property name="jenisObat" type="string">
+            <column name="jenis_obat" length="100" not-null="true" />
+        </property>
+        <property name="harga" type="string">
+            <column name="harga" length="100" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
